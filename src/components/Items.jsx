@@ -4,19 +4,19 @@ import { connect } from 'react-redux'
 class Items extends Component {
   renderList(){
     console.log(this.props.items);
-    // return this.props.items.map( post => {
-    //     return (
-    //         <div className="item" key={post.id}>
-    //             <i className=" large middle aligned icon user" />
-    //             <div className="content">
-    //                 <div className="description">
-    //                     <h2>{post.title}</h2>
-    //                     <p>{post.body}</p>
-    //                 </div>
-    //             </div>
-    //         </div>       
-    //     )
-    // })
+    return this.props.items.map( post => {
+        return (
+            <div className="item" key={post.data["0"].nasa_id}>
+                <i className=" large middle aligned icon user" />
+                <div className="content">
+                    <div className="description">
+                        <h2>{post.data["0"].nasa_id}</h2>
+                        <p>{post.body}</p>
+                    </div>
+                </div>
+            </div>       
+        )
+    })
   }
   render(){
        return(
@@ -27,11 +27,11 @@ class Items extends Component {
     }  
   }
 
-// const mapStateToPops = (state) => {
-//   return {items: state.items}
-// }
-// export default connect(mapStateToPops)(Items);
-export default Items;
+const mapStateToPops = (state) => {
+  return {items: state.items}
+}
+export default connect(mapStateToPops)(Items);
+// export default Items;
 
 
 
