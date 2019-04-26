@@ -1,0 +1,21 @@
+@media (max-width: 767px){
+  .app__results__container {
+    padding: 0;
+  &--item {
+      padding: 30px;
+      margin-bottom: 10px;
+      & img{
+        width: 100px;
+        height: 100px;
+      }
+      &--data{
+        padding: 0;
+        margin-left: 20px;
+        max-width: 60%;
+        p {
+        margin-top: 10px;
+        }
+      }
+    }
+  }
+}
