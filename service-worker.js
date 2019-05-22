@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/SPA_with_REACT-REDUX/bild/precache-manifest.cf4208f633c848aed973bdf0352a22c1.js"
+  "/SPA_with_REACT-REDUX/precache-manifest.0abff12933e1c7e4c89a4297e242e355.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/SPA_with_REACT-REDUX/bild/index.html", {
+workbox.routing.registerNavigationRoute("/SPA_with_REACT-REDUX/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
