@@ -1,14 +1,14 @@
 {
-  "main.css": "/SPA_with_REACT-REDUX/static/css/main.313fca99.chunk.css",
-  "main.js": "/SPA_with_REACT-REDUX/static/js/main.51420303.chunk.js",
-  "main.js.map": "/SPA_with_REACT-REDUX/static/js/main.51420303.chunk.js.map",
+  "main.css": "/SPA_with_REACT-REDUX/static/css/main.e7b05f1f.chunk.css",
+  "main.js": "/SPA_with_REACT-REDUX/static/js/main.5001b5d2.chunk.js",
+  "main.js.map": "/SPA_with_REACT-REDUX/static/js/main.5001b5d2.chunk.js.map",
   "runtime~main.js": "/SPA_with_REACT-REDUX/static/js/runtime~main.77eeab9f.js",
   "runtime~main.js.map": "/SPA_with_REACT-REDUX/static/js/runtime~main.77eeab9f.js.map",
   "static/js/2.2c059f07.chunk.js": "/SPA_with_REACT-REDUX/static/js/2.2c059f07.chunk.js",
   "static/js/2.2c059f07.chunk.js.map": "/SPA_with_REACT-REDUX/static/js/2.2c059f07.chunk.js.map",
   "index.html": "/SPA_with_REACT-REDUX/index.html",
-  "precache-manifest.0abff12933e1c7e4c89a4297e242e355.js": "/SPA_with_REACT-REDUX/precache-manifest.0abff12933e1c7e4c89a4297e242e355.js",
+  "precache-manifest.882d7328a69cef638f618fea6beb9b69.js": "/SPA_with_REACT-REDUX/precache-manifest.882d7328a69cef638f618fea6beb9b69.js",
   "service-worker.js": "/SPA_with_REACT-REDUX/service-worker.js",
-  "static/css/main.313fca99.chunk.css.map": "/SPA_with_REACT-REDUX/static/css/main.313fca99.chunk.css.map",
+  "static/css/main.e7b05f1f.chunk.css.map": "/SPA_with_REACT-REDUX/static/css/main.e7b05f1f.chunk.css.map",
   "static/media/index.scss": "/SPA_with_REACT-REDUX/static/media/1.24a02f42.jpg"
 }
