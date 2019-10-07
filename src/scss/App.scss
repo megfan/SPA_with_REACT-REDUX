@@ -6,44 +6,57 @@
   width: 100%;
   height: 100%;
   &__header {
-    background-image: url("./images/1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 0%;
+    position: relative;
     height: 100vh;
     width: 100vw;
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     padding: 40px;
     text-align: center;
-    &--title{
-      font-size: 6rem;
-      font-weight: 700;
-      color: var(--main);
+    z-index: 1;
+    &:before{
+      content: '';
+      background-image: url('./images/1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 0%;
+      filter: brightness(40%);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index:-1;
     }
-    & p{
-      margin: 30px 0 0 0;
-      font-size: 16px;
-      text-align: center;
+    &--title{
+      font-size: 3rem;
+      text-transform: uppercase;
+      font-weight: 300;    
+      letter-spacing: 5px;  
+      span{
+        color: var(--main);
+        font-weight: 700;
+      }
     }
     &--error{
-      margin-top: 30px;
+      margin-left: 30px;
       font-size: .8rem;
       text-transform: uppercase;
+      position: absolute;
+      top: 60px;
+      left: -30px;
     }
   }
   &__search{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0 0 0;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 20px;
+    position: relative;
     
     input{
-      margin-top: 40px;
+      margin-top: 10px;
       width: 50%;
       border: 0;
       border-bottom: 3px solid var(--main);
@@ -60,16 +73,11 @@
     }
   }
   &__results{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    flex-direction: column;
     &__container{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: flex-start;
-      padding: 5rem;
       &--item{
         height: 400px;
         width: 400px;
