@@ -12,7 +12,7 @@
 ## View:
 [Live](https://megfan.github.io/SPA_with_REACT-REDUX/)
 
-![screenshot-localhost-3000-2019 04 26-09-45-50](https://user-images.githubusercontent.com/35031023/56792033-e73be500-6808-11e9-9f34-fce536f7d819.png)
+![screenshot-localhost-3000-2019 10 07-23-35-09](https://user-images.githubusercontent.com/35031023/66350289-37dc7000-e95b-11e9-8ff5-08326a584d46.png)
 
 
 ### Author
